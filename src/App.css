@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Open-Sans';
+  src: local('Open-Sans'), url('../public/fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container {
+  background: #E5E5E5;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+.accordion__wrapper {
+  width: 720px;
+}
+
+.third-item {
+  background: #3C3C43;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
